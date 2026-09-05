@@ -1,6 +1,6 @@
 import request from 'supertest';
 import { expect } from 'chai';
-import { getToken } from '../../helpers/auth.js';
+import { getToken } from '../helpers/auth.js';
 
 describe('Login External', () => {
     it('deve retornar 200 quando o usuário e senha forem corretos', async () => {
