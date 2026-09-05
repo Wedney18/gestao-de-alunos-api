@@ -1,9 +1,9 @@
-import { api } from '../helpers/api.js';
+import { api } from '../../helpers/api.js';
 import { expect } from 'chai';
-import { comTokenDeAdmin } from '../helpers/auth.js';
-import { novoAluno } from '../factories/alunosFactory.js';
-import { novaDisciplina } from '../factories/disciplinasFactory.js';
-import testesDeMatriculas from '../fixtures/matriculas.json' with { type: 'json' };
+import { comTokenDeAdmin } from '../../helpers/auth.js';
+import { novoAluno } from '../../factories/alunosFactory.js';
+import { novaDisciplina } from '../../factories/disciplinasFactory.js';
+import testesDeMatriculas from '../../fixtures/matriculas.json' with { type: 'json' };
 
 describe('Matrícula de Aluno em Disciplina', () => {
     testesDeMatriculas.forEach(testeDeMatricula => {
