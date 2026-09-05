@@ -6,26 +6,18 @@
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
-<<<<<<< HEAD
     "dev": "nodemon src/server.js",
     "test": "mocha test/**/*.test.js"
-=======
-    "dev": "nodemon src/server.js"
->>>>>>> a740e54a56cc3167e17839faec41b8d869bdae43
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-<<<<<<< HEAD
     "chai": "^6.2.2",
-=======
->>>>>>> a740e54a56cc3167e17839faec41b8d869bdae43
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "js-yaml": "^4.1.0",
     "jsonwebtoken": "^9.0.2",
-<<<<<<< HEAD
     "mocha": "^11.8.0",
     "morgan": "^1.10.0",
     "supertest": "^7.2.2",
@@ -34,12 +26,5 @@
   "devDependencies": {
     "nodemon": "^3.1.4",
     "sinon": "^22.1.0"
-=======
-    "morgan": "^1.10.0",
-    "swagger-ui-express": "^5.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
->>>>>>> a740e54a56cc3167e17839faec41b8d869bdae43
   }
 }
